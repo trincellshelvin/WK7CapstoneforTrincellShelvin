@@ -38,3 +38,6 @@ Click here to view the entire project's wireframe in all pages. [Link](https://w
 ![Image](https://res.cloudinary.com/dgls7u3iq/image/upload/v1720479540/capstonprefacewireframe_t68frf.jpg)
 ![Image](https://res.cloudinary.com/dgls7u3iq/image/upload/v1720479560/indexpage_zwitpa.jpg)
 ![Image](https://res.cloudinary.com/dgls7u3iq/image/upload/v1720479560/gallerypage_pjyuki.jpg)
+![Image](https://res.cloudinary.com/dgls7u3iq/image/upload/v1720479560/santashelperpage_icv5er.jpg)
+![Image](https://res.cloudinary.com/dgls7u3iq/image/upload/v1720479540/breakfastbrunchpage_whmprm.jpg)
+![Image](https://res.cloudinary.com/dgls7u3iq/image/upload/v1720479540/aboutpage_gwqr02.jpg)
