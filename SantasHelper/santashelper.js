@@ -7,3 +7,7 @@ function createMessage() {
 
 }
 sendmessagetoSanta.onclick = createMessage;
+
+function printpage() {
+    window.print();
+}
