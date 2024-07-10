@@ -8,8 +8,6 @@ This project is by brain child of a culmination of that learning while getting o
 ## Projects
 * Santa's Helper: This project will let the user or their children ask Santa for that one particular item that they would like for christmas. At the end of it, they will be able to print said message to Santa and mail it off to the North Pole.
 * Breakfast, brunch: This project will showcase a menu for patrons to utitlize that will allow them to place a food order for brunch and breakfast items, with a message notifying them that their order is ready for pick up.
-* Events-RSVP: This project will allow users to RSVP to an event and notify event coordinators or hosts of the user attending the function. It will also allow them to add their guests whom will be attending with them as well. It will also require contact information for the invited guest for confirmation.
-* Events/RSVP-Meals: This project will allow users whom have RSVP'd to an event to choose between available menu items for that event, while also including any dietary or food allergy restrictions. All of these details sent to the event coordinators and/or hosts.
 * Cupid's Crush: Allows a user to send someone they love or have a crush on a message letting them know about their feelings via contact means.
 * New Year's Ball Drop: Is much like the Events-RSVP project, but with a difference. The user will be able to use contact means to send that special person an invite to be with them at the ball drop into the New Year.
 ## Acknowledgements
@@ -34,7 +32,6 @@ Author: trincellshelvin@gmail.com
 * CSS
 * Bootstrap
 ## Wireframe
-Click here to view the entire project's wireframe in all pages. [Link](https://www.canva.com/design/DAGKBbbm5WA/4O4X8jsb6ebn26_ZtQ4lug/edit?utm_content=DAGKBbbm5WA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton). See below image of stickies on page notes (preface)
-![Image](https://res.cloudinary.com/dgls7u3iq/image/upload/v1720479540/capstonprefacewireframe_t68frf.jpg)
+Click here to view the entire project's wireframe in all pages. [Link](https://www.canva.com/design/DAGKBbbm5WA/4O4X8jsb6ebn26_ZtQ4lug/edit?utm_content=DAGKBbbm5WA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton). 
 ![Image](https://res.cloudinary.com/dgls7u3iq/image/upload/v1720479560/indexpage_zwitpa.jpg)
 ![Image](https://res.cloudinary.com/dgls7u3iq/image/upload/v1720479560/gallerypage_pjyuki.jpg)
