@@ -11,6 +11,7 @@ sendmessagetoSanta.onclick = createMessage;
 
 function printpage() {
     window.print();
+    
 }
 
 let santaletter = document.getElementById("santaletter");
