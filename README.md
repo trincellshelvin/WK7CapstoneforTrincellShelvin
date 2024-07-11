@@ -24,6 +24,7 @@ This project is by brain child of a culmination of that learning while getting o
 ## Roadmap
 -[]Create index.html and pages for each project within folders that will house their HTML, JS, and CSS files for that page along (possibly) a readme for that page.
 ## Contact
+Trincell Shelvin
 Author: trincellshelvin@gmail.com
 ## Built With...
 * Git Hub
