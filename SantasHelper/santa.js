@@ -1,19 +1,22 @@
-const santasHelper = document.getElementById('santasHelper')
-const santasParagraph = (message, type) => {
-  const wrapper = document.createElement('Dear Santa, I have been very good this year and only want one wish from you. I wish to have {$}')
-  wrapper.innerHTML = [
-    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
-    `   <div>${message}</div>`,
-    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Create"></button>',
-    '</div>'
-  ].join('')
+function createMessage() {
+  let message = {}
+  message.sender = prompt("What is your name?");
+  message.request = prompt("What would you like for Christmas from Santa?");
 
-  alertPlaceholder.append(wrapper)
+  santasParagraph.innerHTML = `Dear Santa, Hi this is ${message.sender}, I just want you to know that I have been very good this year. I want to request a special wish from you this year. I would love to have ${message.request} as my gift this year. Sincerely, ${message.sender}`;
+
+}
+sendmessagetoSanta.onclick = createMessage; 
+
+
+function printpage() {
+  window.print();
+  
 }
 
-const alertTrigger = document.getElementById('liveAlertBtn')
-if (alertTrigger) {
-  alertTrigger.addEventListener('click', () => {
-    appendAlert('Nice, you triggered this alert message!', 'success')
-  })
-}
+let santaletter = document.getElementById("santaletter");
+santaletter.addEventListener("click", 
+function () {
+  document.body.style.backgroundColor.backgroundImage =  "url(https://images.pexels.com/photos/6057134/pexels-photo-6057134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)";
+
+})
