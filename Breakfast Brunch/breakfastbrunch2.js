@@ -13,6 +13,13 @@ function submitOrder() {
 }
 sendordertoKitchen.onclick = submitOrder
 
+function (){
+    let subtotal = 15
+    let extraprotiens = 2
+    let extrasides = 2
+    let extradrinks = 2
+    
 
+}
 
 
