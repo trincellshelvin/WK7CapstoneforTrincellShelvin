@@ -2,7 +2,7 @@ function submitOrder() {
     let order = {}
     order.patron = prompt("What is the name for this order?");
     order.number = prompt("What is the phone number for this order?");
-    order.eggs = prompt("What eggs would you like and cooked how? *Can have 2");
+    order.eggs = prompt("What eggs would you like and cooked how?");
     order.protien = prompt("What protien would you like? *Note, for Steak and Lamb, please advised of cook. One comes with meal can add one more for $3 extra");
     order.sides = prompt("What two sides would you like?");
     order.drinks = prompt("What drink would you like with our meal? Can pick 2 with an extra $2 for the extra drink.");
@@ -14,10 +14,13 @@ function submitOrder() {
 sendordertoKitchen.onclick = submitOrder
 
 function (){
-    let subtotal = 15
-    let extraprotiens = 3
+    let mealsubtotal = 17
     let extrasides = 2
     let extradrinks = 2
+    let extraprotien = 3
+    let lamb = 4
+    let salmon = 2
+    
 
 
 }
