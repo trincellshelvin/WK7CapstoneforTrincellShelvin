@@ -1,7 +1,5 @@
-function submitOrder() {
+function submitorder() {
     let order = {}
-    let mealsubtotal = 17
-    let mealtotal = 17 * .10
     order.patron = prompt("What is the name for this order?");
     order.number = prompt("What is the phone number for this order?");
     order.eggs = prompt("What eggs would you like and cooked how?");
@@ -13,7 +11,7 @@ function submitOrder() {
 
     orderParagraph.innerHTML = 'Thanks for your order! Your order total is ${mealtotal}. Please have correct change or expect to pay with card upon order pick up. We accept Cashapp payment to $themeetingplace as well upon arrival.';
 }
-sendordertoKitchen.onclick = submitOrder
+submitorder.onclick = submitorder
 
 function mealsubtotal(){
     let extrasides = 2 

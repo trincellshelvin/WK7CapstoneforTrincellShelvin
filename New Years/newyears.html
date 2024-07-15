@@ -11,19 +11,49 @@
 </head>
 
 <body>
-    <button>
+    <nav>
         <a href="/index.html">Home</a>
         <a href="/About/about.html">About</a>
         <a href="/Gallery/gallery.html">Gallery</a>
         <a href="/SantasHelper/santa.html">Letter</a>
         <a href="/Cupid's Crush/cupidscrush.html">Cupi's Crush</a>
         <a href="/Breakfast Brunch/breakfastbrunch.html">Breakfast/Brunch Order</a>
-    </button>
+    </nav>
+
+    <style>
+        body {
+            background-color: goldenrod;
+
+        }
+        nav {
+            background-color: black; text-emphasis-color: white; text-align: center;
+        }
+    </style>
 
     <h2 id="newyearsHeader">Happy New Year!</h2>
     <p id="newyearsParagraph">Everyone wants someone special by their side when the ball drops into the new year.</p>
     <button id="newyearsButton">Create Invitation</button>
+    <button onclick="sendEmail()">Send Email</button> <!-- Button to trigger email sending -->
 
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.yourisp.com",
+                Username: "username",
+                Password: "password",
+                To: 'recipient@example.com',
+                From: "sender@example.com",
+                Subject: "New Year's Invite",
+                Body: "Hi ${guest}! ${name} would like to invite you to join them to watch the ball drop into the New Year."
+            })
+                .then(function (message) {
+                    alert("Mail sent successfully") // Alert message on successful email delivery
+                });
+        }
+    </script>
+
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
