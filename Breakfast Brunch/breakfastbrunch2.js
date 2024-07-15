@@ -13,15 +13,18 @@ function submitOrder() {
 }
 sendordertoKitchen.onclick = submitOrder
 
-function (){
+function mealsubtotal(){
     let mealsubtotal = 17
-    let extrasides = 2
+    let extrasides = 2 
     let extradrinks = 2
     let extraprotien = 3
     let lamb = 4
     let salmon = 2
-    
-
+    let i = [0]
+    if (mealsubtotal = 17) text = 'Your total is $17';
+    if (order.extradrinks)  add = mealsubtotal + extradrinks(i);
+    if (order.extrasides) add = mealsubtotal + extrasides(i);
+    if (order.extraprotien) add = mealsubtotal + extraprotien(i);
 
 }
 
