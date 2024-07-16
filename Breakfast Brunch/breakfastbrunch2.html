@@ -10,17 +10,22 @@
     <title>Breakfast or Brunch Ordering</title>
 </head>
 
-<nav style="align-items: center;">
-    <a href="/index.html">Home</a>
-    <a href="/About/about.html">About</a>
-    <a href="/Gallery/gallery.html">Gallery</a>
-    <a href="/Cupid's Crush/cupidscrush.html">Secret Admirer</a>
-    <a href="/SantasHelper/santa.html">Letter to Santa</a>
-    <a href="/New Years/newyears.html">New Year's Invite</a>
+<nav>
+    <button type="button" class="btn"><a href="/index.html">Home</a></button>
+    <button type="button" class="btn"><a href="/About/about.html">About</a></button>
+    <button type="button" class="btn"><a href="/Gallery/gallery.html">Gallery</a></button>
+    <button type="button" class="btn"><a href="/Cupid's Crush/cupidscrush.html">Secret Admirer</a></button>
+    <button type="button" class="btn"><a href="/SantasHelper/santa.html">Letter to Santa</a></button>
+    <button type="button" class="btn"><a href="/New Years/newyears.html">New Year's Invite</a></button>
 </nav>
 
 <body>
-    <h1 style="text-align: center;">The Meeting Place Breakfast & Brunch Menu</h1>
+    <style>
+        body {
+            background-color: rgb(187, 187, 236);
+        }
+    </style>
+    <h1 style="text-align: center; padding-top: 2%;">The Meeting Place Breakfast & Brunch Menu</h1>
     <p style="text-align: center;">You can have up to 2 of each item per order (one plate).</p>
     <p style="text-align: center;">Please remember that to have any extra protien added is an extra $3, Lamb we add $4
         to meal price, Salmon add $2
@@ -29,7 +34,7 @@
         accept digital payment via Cashapp to $themeetingplace</p>
     <p style="text-align: center;">Tip or Gratuity is not included, but highly appreciated.</p>
     <div class="row">
-        <div class="col-4">
+        <div class="col-4" style="width: fit-content; background-color: cornflowerblue;">
             <div class="list-group" id="list-tab" role="tablist">
                 <a class="list-group-item list-group-item-action active" id="list-Eggs-list" data-bs-toggle="list"
                     href="#list-Eggs" role="tab" aria-controls="list-Eggs">Eggs</a>
@@ -53,7 +58,7 @@
                     href="#list-Drinks" role="tab" aria-controls="list-Drinks">Drinks</a>
             </div>
         </div>
-        <div class="col-8">
+        <div class="col-8" style="width: 25%;">
             <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="list-Eggs" role="tabpanel" aria-labelledby="list-Eggs-list">
                     Prepared your way. We do scrambled (soft or hard), boiled, over easy, sunny up, fried or poached.

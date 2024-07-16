@@ -32,6 +32,7 @@ Author: trincellshelvin@gmail.com
 * HTML
 * CSS
 * Bootstrap
+* Dark Mode
 ## Wireframe
 Click here to view the entire project's wireframe in all pages. [Link](https://www.canva.com/design/DAGKBbbm5WA/4O4X8jsb6ebn26_ZtQ4lug/edit?utm_content=DAGKBbbm5WA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton). 
 ![Image](https://res.cloudinary.com/dgls7u3iq/image/upload/v1720479560/indexpage_zwitpa.jpg)
