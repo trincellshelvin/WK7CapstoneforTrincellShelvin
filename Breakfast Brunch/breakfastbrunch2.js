@@ -1,3 +1,5 @@
+console.log("Hello from Breakfast Brunch")
+
 function submitorder() {
     let order = {}
     order.patron = prompt("What is the name for this order?");
@@ -9,9 +11,9 @@ function submitorder() {
     order.condiments = prompt("What condiments would you like *coffee already comes with 2 cream and 3 sugars?");
     order.extra = prompt("Any extra menu items? *extra charge for each one requested.");
 
-    orderParagraph.innerHTML = 'Thanks for your order! Your order total is ${mealtotal}. Please have correct change or expect to pay with card upon order pick up. We accept Cashapp payment to $themeetingplace as well upon arrival.';
+    orderParagraph.innerHTML = `Thanks for your order! Your order total is ${mealtotal}. Please have correct change or expect to pay with card upon order pick up. We accept Cashapp payment to $themeetingplace as well upon arrival.`;
 }
-submitorder.onclick = submitorder
+submitOrderButton.onclick = submitorder
 
 function mealtotal(){
     let mealsubtotal = 17
@@ -22,7 +24,7 @@ function mealtotal(){
     let lamb = 4
     let salmon = 2
     let i = [0]
-    if (mealsubtotal = 17) text = 'Your total is $17';
+    if (mealsubtotal === 17) text = 'Your total is $17';
     if (order.extradrinks)  add = mealsubtotal + extradrinks(i);
     if (order.extrasides) add = mealsubtotal + extrasides(i);
     if (order.extraprotein) add = mealsubtotal + extraprotein(i);
