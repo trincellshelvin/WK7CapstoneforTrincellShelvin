@@ -13,7 +13,8 @@ function submitorder() {
 }
 submitorder.onclick = submitorder
 
-function mealsubtotal(){
+function mealtotal(){
+    let mealsubtotal = 17
     let extrasides = 2 
     let extradrinks = 2
     let extraprotein = 3
