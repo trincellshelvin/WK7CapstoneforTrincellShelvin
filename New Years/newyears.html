@@ -12,24 +12,46 @@
 
 <body>
     <nav>
-        <a href="/index.html">Home</a>
-        <a href="/About/about.html">About</a>
-        <a href="/Gallery/gallery.html">Gallery</a>
-        <a href="/SantasHelper/santa.html">Letter to Santa</a>
-        <a href="/Cupid's Crush/cupidscrush.html">Cupi's Crush</a>
-        <a href="/Breakfast Brunch/breakfastbrunch.html">Breakfast/Brunch Order</a>
+        <button type="button" class="btn btn-outline-light"><a href="/index.html">Home</a></button>
+        <button type="button" class="btn btn-outline-light"><a href="/About/about.html">About</a></button>
+        <button type="button" class="btn btn-outline-light"><a href="/Gallery/gallery.html">Gallery</a></button>
+        <button type="button" class="btn btn-outline-light"><a href="/SantasHelper/santa.html">Letter to
+                Santa</a></button>
+        <button type="button" class="btn btn-outline-light"><a href="/Cupid's Crush/cupidscrush.html">Cupi's
+                Crush</a></button>
+        <button type="button" class="btn btn-outline-light"><a
+                href="/Breakfast Brunch/breakfastbrunch.html">Breakfast/Brunch Order</a></button>
     </nav>
 
     <style>
         body {
             background-color: gold;
+            text-align: center;
+        }
 
-        }
         nav {
-            background-color: black; text-emphasis-color: white; text-align: center;
+            background-color: gold;
+            text-emphasis-color: white;
+            text-align: center;
+            color: white;
         }
+
         a {
-            text-decoration: none; 
+            text-decoration: none;
+        }
+
+        img {
+            width: 400px;
+            height: 400px;
+            margin-top: 6%;
+        }
+
+        h2 {
+            padding-top: 3%;
+        }
+
+        button {
+            background-color: white;
         }
     </style>
 
@@ -37,6 +59,10 @@
     <p id="newyearsParagraph">Everyone wants someone special by their side when the ball drops into the new year.</p>
     <button id="newyearsButton">Create Invitation</button>
     <button onclick="sendEmail()">Send Email</button> <!-- Button to trigger email sending -->
+
+    <div>
+        <img src="/Capstone Images/Designer (6).jpeg" alt="new years fireworks">
+    </div>
 
     <script>
         function sendEmail() {
