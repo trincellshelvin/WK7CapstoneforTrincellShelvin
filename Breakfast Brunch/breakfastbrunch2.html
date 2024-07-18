@@ -24,85 +24,125 @@
         body {
             background-color: rgb(187, 187, 236);
         }
-        
+
         a {
-            text-decoration: none; 
+            text-decoration: none;
         }
     </style>
     <h1 style="text-align: center; padding-top: 2%;">The Meeting Place Breakfast & Brunch Menu</h1>
-    <p style="text-align: center;">Upon pick up arrival, please have exact change, debit or credit card for payment. We also
+    <p style="text-align: center;">Upon pick up arrival, please have exact change, debit or credit card for payment. We
+        also
         accept digital payment via Cashapp to $themeetingplace</p>
     <p style="text-align: center;">Tip or Gratuity is not included, but highly appreciated.</p>
-    <div class="row">
-        <div class="col-4" style="width: fit-content; background-color: cornflowerblue;">
-            <div class="list-group" id="list-tab" role="tablist">
-                <a class="list-group-item list-group-item-action active" id="list-Eggs-list" data-bs-toggle="list"
-                    href="#list-Eggs" role="tab" aria-controls="list-Eggs">Eggs</a>
-                <a class="list-group-item list-group-item-action" id="list-Steak-list" data-bs-toggle="list"
-                    href="#list-Steak" role="tab" aria-controls="list-Steak">Steak</a>
-                <a class="list-group-item list-group-item-action" id="list-Seafood-list" data-bs-toggle="list"
-                    href="#list-Seafood" role="tab" aria-controls="list-Seafood">Seafood</a>
-                <a class="list-group-item list-group-item-action" id="list-Chicken-list" data-bs-toggle="list"
-                    href="#list-Chicken" role="tab" aria-controls="list-Chicken">Chicken</a>
-                <a class="list-group-item list-group-item-action" id="list-Pork-list" data-bs-toggle="list"
-                    href="#list-Pork" role="tab" aria-controls="list-Pork">Pork</a>
-                <a class="list-group-item list-group-item-action" id="list-Lamb-list" data-bs-toggle="list"
-                    href="#list-Lamb" role="tab" aria-controls="list-Lamb">Lamb</a>
-                <a class="list-group-item list-group-item-action" id="list-Sides-list" data-bs-toggle="list"
-                    href="#list-Sides" role="tab" aria-controls="list-Sides-list">Sides</a>
-                <a class="list-group-item list-group-item-action" id="list-Condiments-list" data-bs-toggle="list"
-                    href="#list-Condiments" role="tab" aria-controls="list-Condiments">Condiments</a>
-                <a class="list-group-item list-group-item-action" id="list-Drinks-list" data-bs-toggle="list"
-                    href="#list-Drinks" role="tab" aria-controls="list-Drinks">Drinks</a>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-4" style="width: fit-content; background-color: cornflowerblue;">
+                        <div class="list-group" id="list-tab" role="tablist">
+                            <a class="list-group-item list-group-item-action active" id="list-Eggs-list"
+                                data-bs-toggle="list" href="#list-Eggs" role="tab" aria-controls="list-Eggs">Eggs</a>
+                            <a class="list-group-item list-group-item-action" id="list-Steak-list" data-bs-toggle="list"
+                                href="#list-Steak" role="tab" aria-controls="list-Steak">Steak</a>
+                            <a class="list-group-item list-group-item-action" id="list-Seafood-list"
+                                data-bs-toggle="list" href="#list-Seafood" role="tab"
+                                aria-controls="list-Seafood">Seafood</a>
+                            <a class="list-group-item list-group-item-action" id="list-Chicken-list"
+                                data-bs-toggle="list" href="#list-Chicken" role="tab"
+                                aria-controls="list-Chicken">Chicken</a>
+                            <a class="list-group-item list-group-item-action" id="list-Pork-list" data-bs-toggle="list"
+                                href="#list-Pork" role="tab" aria-controls="list-Pork">Pork</a>
+                            <a class="list-group-item list-group-item-action" id="list-Lamb-list" data-bs-toggle="list"
+                                href="#list-Lamb" role="tab" aria-controls="list-Lamb">Lamb</a>
+                            <a class="list-group-item list-group-item-action" id="list-Sides-list" data-bs-toggle="list"
+                                href="#list-Sides" role="tab" aria-controls="list-Sides-list">Sides</a>
+                            <a class="list-group-item list-group-item-action" id="list-Condiments-list"
+                                data-bs-toggle="list" href="#list-Condiments" role="tab"
+                                aria-controls="list-Condiments">Condiments</a>
+                            <a class="list-group-item list-group-item-action" id="list-Drinks-list"
+                                data-bs-toggle="list" href="#list-Drinks" role="tab"
+                                aria-controls="list-Drinks">Drinks</a>
+                        </div>
+                    </div>
+                    <div class="col-4" style="width: 60%;">
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="list-Eggs" role="tabpanel"
+                                aria-labelledby="list-Eggs-list">
+                                Prepared your way. We do scrambled (soft or hard), boiled, over easy, sunny up, fried or
+                                poached.
+                            </div>
+                            <div class="tab-pane fade" id="list-Steak" role="tabpanel"
+                                aria-labelledby="list-Steak-list">A sirloin
+                                cut, lightly
+                                seasoned and prepared to your liking. Cooked from Well to Blue, just tell us how you
+                                like it.
+                            </div>
+                            <div class="tab-pane fade" id="list-Seafood" role="tabpanel"
+                                aria-labelledby="list-Seafood-list">
+                                Spiced and prepared with any variety of spice. Choices are Salmon or Shrimp (Fried or
+                                Grilled).
+                            </div>
+                            <div class="tab-pane fade" id="list-Chicken" role="tabpanel"
+                                aria-labelledby="list-Chicken-list">
+                                Lovingly rubed with spices and flat top grilled or fried. Or your choice of smoothered
+                                chicken
+                                livers and/or
+                                gizzards with onions (or a mix of both smoothered in Onion Gravy). Your Choice.
+                            </div>
+                            <div class="tab-pane fade" id="list-Pork" role="tabpanel" aria-labelledby="list-Pork-list">
+                                Bone
+                                in chops cooked on a flat top coated in a special blend of spices. Served as a sandwich
+                                or as an
+                                accompaniment to any meal sides.
+                            </div>
+                            <div class="tab-pane fade" id="list-Lamb" role="tabpanel" aria-labelledby="list-Lamb-list">
+                                Lamb
+                                is prepared cooked to order according to your doness coated in herbs and spices. There
+                                is a choice
+                                between ground patties or something with a bone. Pricing for this item is different.
+                                Cooked from
+                                Well to Blue, just tell us how you like it.
+                            </div>
+                            <div class="tab-pane fade" id="list-Sides" role="tabpanel"
+                                aria-labelledby="list-Sides-list">Your
+                                choice of sides prepared to your liking. Choice of two from grits, oatmeal,
+                                hasbrowns/homefries,
+                                rice, buscuits, sauteed onions & mushrooms, fruit salad, or toast.
+                            </div>
+                            <div class="tab-pane fade" id="list-Condiments" role="tabpanel"
+                                aria-labelledby="list-Condiments-list">
+                                Your
+                                choice of condiments to add from the menu. Choices are Grape Jelly, Apple Jelly, Butter,
+                                Apple
+                                Butter, Strawberry Jelly or Preserve, Creamer (for coffee), Whipped Cream, Sour Cream,
+                                Guacamole,
+                                Red Salsa, Green Salsa, Tahini, Almond or Peanut Butter, Ketcup, Honey, Sugar, Cheese,
+                                or Steen
+                                Syrup.
+                            </div>
+                            <div class="tab-pane fade" id="list-Drinks" role="tabpanel"
+                                aria-labelledby="list-Drinks-list">Your
+                                choice between coffee (iced or hot), Tea (iced or hot), Juice(Orange, Apple or Grape),
+                                Virgin Mimosa
+                                (Made with Orange Juice
+                                and
+                                Grape Juice), Milk (Dariy and Non-Dairy-Almond Milk), Lemonade, or Soda.
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="col-8" style="width: 25%;">
-            <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="list-Eggs" role="tabpanel" aria-labelledby="list-Eggs-list">
-                    Prepared your way. We do scrambled (soft or hard), boiled, over easy, sunny up, fried or poached.
-                </div>
-                <div class="tab-pane fade" id="list-Steak" role="tabpanel" aria-labelledby="list-Steak-list">A sirloin
-                    cut, lightly
-                    seasoned and prepared to your liking. Cooked from Well to Blue, just tell us how you like it.
-                </div>
-                <div class="tab-pane fade" id="list-Seafood" role="tabpanel" aria-labelledby="list-Seafood-list">
-                    Spiced and prepared with any variety of spice. Choices are Salmon or Shrimp (Fried or
-                    Grilled).
-                </div>
-                <div class="tab-pane fade" id="list-Chicken" role="tabpanel" aria-labelledby="list-Chicken-list">
-                    Lovingly rubed with spices and flat top grilled or fried. Or your choice of smoothered chicken
-                    livers and/or
-                    gizzards with onions (or a mix of both smoothered in Onion Gravy). Your Choice.
-                </div>
-                <div class="tab-pane fade" id="list-Pork" role="tabpanel" aria-labelledby="list-Pork-list">Bone
-                    in chops cooked on a flat top coated in a special blend of spices. Served as a sandwich or as an
-                    accompaniment to any meal sides.
-                </div>
-                <div class="tab-pane fade" id="list-Lamb" role="tabpanel" aria-labelledby="list-Lamb-list">Lamb
-                    is prepared cooked to order according to your doness coated in herbs and spices. There is a choice
-                    between ground patties or something with a bone. Pricing for this item is different. Cooked from
-                    Well to Blue, just tell us how you like it.
-                </div>
-                <div class="tab-pane fade" id="list-Sides" role="tabpanel" aria-labelledby="list-Sides-list">Your
-                    choice of sides prepared to your liking. Choice of two from grits, oatmeal, hasbrowns/homefries,
-                    rice, buscuits, sauteed onions & mushrooms, fruit salad, or toast.
-                </div>
-                <div class="tab-pane fade" id="list-Condiments" role="tabpanel" aria-labelledby="list-Condiments-list">
-                    Your
-                    choice of condiments to add from the menu. Choices are Grape Jelly, Apple Jelly, Butter, Apple
-                    Butter, Strawberry Jelly or Preserve, Creamer (for coffee), Whipped Cream, Sour Cream, Guacamole,
-                    Red Salsa, Green Salsa, Tahini, Almond or Peanut Butter, Ketcup, Honey, Sugar, Cheese, or Steen
-                    Syrup.
-                </div>
-                <div class="tab-pane fade" id="list-Drinks" role="tabpanel" aria-labelledby="list-Drinks-list">Your
-                    choice between coffee (iced or hot), Tea (iced or hot), Juice(Orange, Apple or Grape), Virgin Mimosa
-                    (Made with Orange Juice
-                    and
-                    Grape Juice), Milk (Dariy and Non-Dairy-Almond Milk), Lemonade, or Soda.
+            <div class="col-6">
+                <div class="container" style="align-content: space-around;">
+                    <aside><video width="500" height="320" loop style="margin-left: 40%;">
+                            <source src="/Capstone Images/1908426-uhd_3840_2160_25fps.mp4">
+                        </video></aside>
                 </div>
             </div>
         </div>
     </div>
+
+
     <p style="text-align: center;">Meal costs $17 for the following included: Side (your choice of 2), Protein (your
         choice of 1 main plus bacon, sausage, or ham), Eggs, 2 pieces of toast or a biscuite, and one drink. </p>
     <p style="text-align: center;">Please click below to submit your order. You will be notified via text when your
