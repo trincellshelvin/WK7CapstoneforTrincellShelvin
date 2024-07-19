@@ -3,6 +3,12 @@ const nuts = [
     'Cashews',
     'Pecans',
     'Walnuts',
+    'Peanuts',
+    'Hazelnuts',
+    'Pumpkin Seeds',
+    'Sunflower Seeds',
+    'Brazil Nuts',
+    'Macodamia',
     
 ];
 
@@ -12,6 +18,6 @@ function getRandomNut() {
 }
 
 const randomNut = getRandomNut();
-console.log(`Randomly selected nut: ${randomNut}`);
+alert(`Randomly selected nut: ${randomNut}`);
 
 
