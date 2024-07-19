@@ -13,10 +13,3 @@ function printpage() {
   window.print();
 
 }
-
-let santaletter = document.getElementById("santaletter");
-santaletter.addEventListener("click",
-  function () {
-    document.body.style.backgroundColor.backgroundImage = "url(https://images.pexels.com/photos/6057134/pexels-photo-6057134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)";
-
-  })
