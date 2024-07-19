@@ -3,7 +3,7 @@ const nuts = [
     'Cashews',
     'Pecans',
     'Walnuts',
-    // Add more nuts here...
+    
 ];
 
 function getRandomNut() {
@@ -14,4 +14,4 @@ function getRandomNut() {
 const randomNut = getRandomNut();
 console.log(`Randomly selected nut: ${randomNut}`);
 
-pickaNutButton.onclick = getRandomNut
+
