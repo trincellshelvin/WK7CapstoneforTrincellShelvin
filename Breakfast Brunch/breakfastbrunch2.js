@@ -1,5 +1,3 @@
-console.log("Hello from Breakfast Brunch")
-
 function submitorder() {
     let order = {}
     order.patron = prompt("What is the name for this order?");
